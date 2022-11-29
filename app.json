@@ -1,6 +1,22 @@
 {
   "expo": {
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
     "scheme": "acme",
-    "web": { "bundler": "metro" }
+    "web": {
+      "bundler": "metro"
+    },
+    "android": {
+      "package": "br.com.gabrielmaia.tecnology"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e61b41f-aedd-4f0c-9d5a-215ac8f4b9f2"
+      }
+    }
   }
 }
